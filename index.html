@@ -6,19 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-        </style>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Inconsolata&display=swap');
-            </style>
-            <style>
-                @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;700&display=swap');
-                </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;700&family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
-        </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;400;700&family=Fira+Sans:wght@100;400;700&family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Vibur&display=swap');
         </style>
     <title>Document</title>
 </head>
@@ -27,7 +15,7 @@
     <section class="main-nav">
     <nav class="navbar">
     <div class="max-width">
-    <h1>.liera</h1>
+    <h1 class="logo"><span id="andrew">andrew</span><span id="liera">liera</span></h1>
     <div class="nav-content">
         <a href="#skills">Skills</a>
         <a href="#project">Projects</a>
@@ -43,27 +31,30 @@
     <h1>I'm <span id="name">Andrew Liera</span></h1><h1> burgeoning
     <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
     <h1>And I'm glad we finally got to meet.</h1><br><br><br><br>
-    <button id="download">DOWNLOAD RESUMÉ</button>
+    <!-- <button id="download">DOWNLOAD RESUMÉ</button> -->
 </div>
 </section>
 <!--Skills Content-->
 <h1 id="skills-head">SKILLS</h1>
+<h3 id="skill-blurb">Every designer has something different to offer. Here's what you can expect me to bring to your next project.</h3>
 <section class="skills" id="skills">
 <div class="skills-container">
     <div class="skills-card-1 skills-card">
         <div class="skills-1-front"><p id="dthinking">Design Thinking</p><img src="https://assets.justinmind.com/wp-content/uploads/2018/11/header-double-diamond-model.png"></div>
-        <div class="skill-top"><h1>From idea to implementation</h1></div>
-        <div class="skills-1-back"><p>Some words</p><p>and more words</p>
+        <div class="skill-top-1"><h1>From <span id="idea">Idea</span> to <span id="implement">Implementation</span></h1></div>
+        <div class="skills-1-back"><p>Every great product starts with an idea, and no one understands products better than their users! <br>Let's build the best products we can for the people that matter, using research that focuses on the user and never forgets throughout the entire process of creation.</p>
         </div>
     </div>
     <div class="skills-card-2 skills-card">
         <div class="skills-2-front"><p id="fed">Front-End Development</p><img src="https://www.pentalog.com/wp-content/uploads/2019/08/Front-end-Development.png"></div>
-        <div class="skill-top"><h1>Code Conversational</h1></div>
-        <div class="skills-2-back">Sample text!</div>
+        <div class="skill-top-2"><h1>Keeping Every Pixel in Place</h1></div>
+        <div class="skills-2-back"><p>The job isn't over after the last asset has been handed over in Adobe XD.<br>As a designer currently exploring the depths of front-end web development, we can make sure that every pixel is in place for your next project.</p></div>
     </div>
     <div class="skills-card-3 skills-card">
         <div class="skills-3-front"><p id="idelight">Interactive Delight</p><img src="https://ergomania.eu/wp-content/uploads/microinteractions_lead_eng.png"></div>
-        <div class="skills-3-back">Sample text!</div>
+        <div class="skill-top-3"><h1>Made You Click!</h1></div>
+        <div class="skills-3-back"><p>Every interaction we have is supposed to be intentional, but why not try and have some fun with it sometime?<br>There are countless ways to make something meaningful, even if it's just a simple click. So what I mean to say, is that I hope you're having fun!</p>
+        </div>
     </div>
 </div>
 
@@ -72,13 +63,44 @@
 <h1 id="pro-head">PROJECTS</h1>
 <section class="project" id="project">
     <div class="pro-container">
-        <div class="pro-card-1 pro-card">
-            <div class="pro-1-front"><p id="wander">Wander: A Mobile App UX Case Study</p><img src="https://image.freepik.com/free-vector/illustration-travel-journey-concept_53876-37285.jpg"></div>
-            <div class="pro-1-back">Sample text! 
-               <div><button id="wanderButton">SEE WORK</button></div> 
-            </div>
+        <img class="pro-img-1 pro-img" src="https://image.freepik.com/free-vector/illustration-travel-journey-concept_53876-37285.jpg" alt="">
+        <div class="pro-overlay">
+            <!-- <div class="pro-title">Wander: A Mobile App UX Case Study</div> -->
+            <p class="pro-description pro-1-desc">Wander is a product based on the imaginings of a travel service meant to operate in a post-pandemic world.</p>
+            <a class="case-study" href="#">Read Case Study</a>
+            <h4>Roles: UX Researcher, UX Designer</h4>
         </div>
-        <div class="pro-card-2 pro-card">
+        <p class="front-desc">Wander: A Mobile App UX Case Study</p>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- <div class="pro-container">
+        <div class="pro-card-1 pro-card">
+            <div class="pro-1-front"><p id="wander">Wander: A Mobile App UX Case Study</p><img src="https://image.freepik.com/free-vector/illustration-travel-journey-concept_53876-37285.jpg">
+                <div class="pro-hide">hello?</div>
+                <p class="pro-hide-text pro-hide-text-1">Description!</p>
+                <div class="pro-1-back">Sample text! 
+                    <div><button id="wanderButton">SEE WORK</button></div> 
+                 </div>
+            </div>
+        </div> -->
+        <!-- <div class="pro-card-2 pro-card">
             <div class="pro-2-front"><p id="homi">Homi: The LGBTQ+ Housing App</p><img src="https://www.localsamosa.com/wp-content/uploads/2020/06/the-queer-community-lgbtq-vector-illustration.jpg"></div>
             <div class="pro-2-back">Sample text!</div>
         </div>
@@ -86,22 +108,23 @@
             <div class="pro-3-front"><p id="gmshelter">UI Redesign: GiveMeShelter Project</p><img src="https://www.pngitem.com/pimgs/m/85-850314_dog-and-cat-silhouette-png-png-download-png.png"></div>
             <div class="pro-3-back">Sample text!</div>
         </div>
-    </div>
-
+    </div> -->
 </section>
+
 <!--About Content-->
 <h1 class="about-head" id="about-head">ABOUT ME</h1>
 <section class="about" id="about">
     <div class="about-container">
-        <div class="ab-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto temporibus, repudiandae obcaecati iusto praesentium molestiae porro error quas, dicta itaque tempora, recusandae natus alias non ea optio debitis molestias.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto temporibus, repudiandae obcaecati iusto praesentium molestiae porro error quas, dicta itaque tempora, recusandae natus alias non ea optio debitis molestias.</div>
+        <img id="pfp" src="/images/hero.jpg">
+        <div class="ab-me">I'm Andrew Liera, a Brooklyn-based UX Designer (and Developer!) by way of Kansas City, MO. My forray into the world of UX Design began at the end of 2020 where I was a student through Columbia Engineering Bootcamps, but I'd consider myself as always being tech-adjacent.<br>As an undergrad chemical engineering major, I was introduced to the concept of Design Thinking and given the opportunity to explore a few different areas in tech, primarily edutech, and always wondered where I would be able to take that knowledge professionally.<br>Some years later and I am now currently trying to find opportunities to break into the field that I think I'd be able to do the most good, not just for myself, but for the people who might need my help.<br>You can find me at my laptop, where I'm currently working on trying to improve my front-end dev skills and daydreaming about video games and narrative design.<br>Glad we finally got to meet! :)</div>
     </div>
 </section>
 <section class="footer-sec" id="footer-sec">
     <footer class="footer">
-        <h1 id="contact-head">CONTACT ME</h1>
+       <div> <h1 id="contact-head">CONTACT ME</h1></div>
     <div class="footer-container">
-        <img id="linked" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="linkedin logo">
-        <img id="git" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png">
+        <a href="https://www.linkedin.com/in/andrew-liera/"><img id="linked" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="linkedin logo"></a>
+        <a href="https://github.com/Andrew-Liera"><img id="git" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png"></a>
 
     </div>
 </footer>
