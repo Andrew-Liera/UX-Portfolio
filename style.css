@@ -30,11 +30,14 @@
 }
 #andrew {
     font-family: 'Vibur', sans-serif;
+    font-size: 2.25rem;
+
 
 }
 #liera {
-    color:rgb(0,0,255, 0.6);
+    color:rgba(65, 105, 225);
     font-family: 'Vibur', sans-serif;
+    font-size: 2.25rem;
 
     
 }
@@ -166,6 +169,8 @@
     font-size: 1.25rem;
     padding: 25px 0 0 0;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -50px;
+    font-weight: 100;
 }
 .skills-container {
     display: flex;
@@ -411,11 +416,13 @@
     border-radius: 16px;
     margin: 25px;
 }
+
 .pro-img {
     display: block;
     width: 100%;
     border-radius: 7px;
     border-bottom: 50px solid black;
+    height: 400px;
 
 }
 .case-study {
@@ -429,7 +436,7 @@
 }
 .case-study:hover {
     transform: scale(1.25);
-    border-color: royalblue;
+    border-color: #EFA9AE;
 }
 .pro-overlay {
     position: absolute;
@@ -438,7 +445,9 @@
     width: 100%;
     height: 100%;
     border-radius: 7px;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.8);
+    /* background-color: rgba(65, 105, 225, 0.9); */
+
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     display: flex;
@@ -712,6 +721,7 @@ display: flex;
     margin: auto;
     width: 40%;
     line-height: 1.5em;
+    word-wrap:initial;
 }
 /********* Footer sytling START ******** */
 #footer-sec {
