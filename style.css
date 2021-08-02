@@ -5,6 +5,9 @@
 
 
 }
+/* body {
+    background-color: rgba(65, 105, 225);
+} */
 
 /* ******************   Navbar styling START *********** */
 .navbar {
@@ -13,17 +16,18 @@
     padding: 25px 15px;
     /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); */
     /* border-top: 15px solid #f7af09; */
-    background-color: white;
+    background-color: #f7fcf6;
     z-index: 1;
 }
 
 .navbar h1 {
     font-size: 2rem;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     /* border-bottom: 5px solid #f7af09; */
     line-height: 27px;
     border-radius: 3px;
     font-weight: 100;
+    position: relative;
 }
 .logo {
     font-family: 'Vibur', sans-serif;
@@ -31,6 +35,8 @@
 #andrew {
     font-family: 'Vibur', sans-serif;
     font-size: 2.25rem;
+    color:#27233A;
+
 
 
 }
@@ -39,23 +45,25 @@
     font-family: 'Vibur', sans-serif;
     font-size: 2.25rem;
 
+
     
 }
 
 .nav-content  a{
-    color: black;
+    color: #27233A;
     display: inline-block;
     font-size: 1.25rem;
-    font-family: 'fora sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin-left: 40px;
     font-weight: 100;
     text-decoration: none;
 }
 .nav-content a:hover {
     cursor: pointer;
-    border-bottom: 1px solid rgb(0,0,255, 0.6);
+    /* border-bottom: 1px solid rgba(65, 105, 225); */
     transform: scale(1.05);
-    transition: all ease 0.4s;
+    transition: ease-in 0.2s;
+    color: rgba(65, 105, 225);
 }
 .max-width {
     display: flex;
@@ -68,9 +76,9 @@
 /* ******************   Hero/Main content styling START *********** */
 #hero {
     /* display: flex; */
-    height: 75vh;
+    height: 92vh;
     width: 100vw;
-    background-color: rgba(99, 199, 33, 0.5);
+    /* background-color: rgba(99, 199, 33, 0.5); */
     /* background: repeating-radial-gradient(
         circle,
         purple,
@@ -79,79 +87,93 @@
         #4b026f 40px
         ); */
     padding: 50px 0 0 15px;
+    background-color: #f7fcf6;
+
+    ;
+
     }
 
 .hero-right {
     width: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: auto;
-    text-align: center;
 
 }
 .hero-right h1 {
-    font-size: 3rem; 
+    font-size: 2.5rem; 
     margin-top: 30px;
-    color: black;
-    font-family: 'Fora Sans', sans-serif;
+    color: #27233A;
+    font-family: 'Source Sans Pro', sans-serif;
     line-break: auto;
+    text-align: center;
+    font-weight: 300;
 }
 #name {
-    color:rgba(66, 200, 188, 0.7);
-    font-size: 5rem;
-    margin: 5px;
-    letter-spacing: 0.5rem;
-    font-family: 'Lora', sans-serif;
-    line-height: 150px;
+    color:rgba(65, 105, 225);
+    font-size: 7rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 100px;
     line-break: 15px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+
+}
+#glad {
+    font-style: italic;
+    font-size: 3rem;
 }
 .typed-text {
-    font-family: 'Lora', sans-serif;
-    color: #701bfa;
+    font-family: 'Vibur';
+    color: #DB3069;
     text-align: center;
     width: 100%;
     align-items: center;
-    font-size: 4rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 100;
 }
 .cursor {
     display: inline-block;
-    width: 3px;
-    background-color: #ccc;
+    width: 2px;
+    color: #27233A;
     margin-left: 3px;
     animation: blink 1s infinite;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 @keyframes blink {
-    0% {background-color: #ccc; }
-    49% {background-color: #ccc;}
+    0% {background-color: #27233A; }
+    49% {background-color: #27233A;}
     50% {background-color: transparent;}
     99% {background-color: transparent;}
-    100% {background-color: #ccc;}
+    100% {background-color: #27233A;}
 }
 .cursor.typing {
     animation: none;
+    color: #27233A;
 }
 
 #download {
     display: inline-block;
     padding: 10px;
     cursor: pointer;
-    color: white;
-    background-color: rgba(200, 19, 78);
+    color: #f7fcf6;
+    background-color: #DB3069;
     border: none;
-    margin: 0 15%;
-    border-radius: 7px;
+    margin-left: 39%;
+    border-radius: 20px;
     width: 20%;
-    font-family: 'Antonio', sans-serif;
-    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
     position: absolute;
+    font-weight: 300;
+
 
 }
 #download:hover {
-    background-color: white;
-    color: #f7af09;
-    border: 2px solid rgba(66, 200, 188, 0.7) ;
+    background-color: #f7fcf6;
+    color: #DB3069;
+    border: 2px solid #DB3069 ;
     transition: all ease 0.2s;
 }
 /* ******************   Skills styling START *********** */
@@ -159,26 +181,66 @@
     display: flex;
     width: 100%;
     height: 400px;
-    background-color: rgba(148, 166, 177, 0.8);
+    /* background-color: rgba(148, 166, 177, 0.8); */
     /* background-color: #701bfa; */
-   
+    /* background-color: rgba(203, 153, 255, 0.25); */
+    /* background-color: mediumaquamarine; */
+    background-color: #f7fcf6;
+
+}
+.skill-box  {
+    background-color: rgba(65, 105, 225);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    padding: 10px;
+
+}
+#skills-head {
+    /* color: #f7fff6; */
+    color: #f7fcf6;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    font-size: 45px;
+    /* margin: 0 40% 20px; */
+    font-weight: 900;
+    /* background-color: rgb(212, 169, 255); */
+    /* background-color: rgba(203, 153, 255); */
+    width: 100%;
 }
 #skill-blurb {
     text-align: center;
     font-weight: 100;
     font-size: 1.25rem;
-    padding: 25px 0 0 0;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: -50px;
-    font-weight: 100;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    /* background-color: white; */
+    /* background-color: #BCEBCB; */
+    /* background-color: #27233A; */
+    font-style: italic;
+    color: #f7fcf6;
+    /* border-radius: 5px; */
+    /* border: 3px solid #f7fff6; */
 }
+/* #click {
+font-family: 'Vibur', sans-serif;
+font-size: 1.25rem;
+} */
 .skills-container {
     display: flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lato', sans-serif;
     justify-content: space-evenly;
     height: 100%;
     width: 100%;
     align-items: center;
+    margin: 5px;
+    /* border: 3px solid yellow; */
+
 }
 
 .skills-card {
@@ -191,6 +253,7 @@
     transform-style: preserve-3d;
     transition: all 1s ease;
     cursor: pointer;
+
 }
 .skills-card:hover {
     transform: scale(1.05);
@@ -213,16 +276,17 @@
     margin: auto;
     position: absolute;
     border-radius: 7px;
-    border-bottom: 50px solid black;
+    border-bottom: 50px solid #090446;
 }
 /* .skills-1-front img:hover {
     opacity: 0.9;
 } */
 #dthinking {
-    color: white;
+    color: #f7fcf6;
     z-index: 1;
-    margin: 165px auto auto auto;
-    font-size: 1.25rem;
+    margin: 160px auto auto auto;
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .skills-2-front img {
@@ -231,13 +295,15 @@
     margin: auto;
     position: absolute;
     border-radius: 7px;
-    border-bottom: 50px solid  black;
+    border-bottom: 50px solid  #2C0735;
 }
 #fed {
-    color: white;
+    color: #f7fcf6;
     z-index: 1;
-    margin: 165px auto auto auto;
-    font-size: 1.25rem;
+    margin: 160px auto auto auto;
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 .skills-3-front img {
     width: 100%;
@@ -245,13 +311,15 @@
     margin: auto;
     position: absolute;
     border-radius: 7px;
-    border-bottom: 50px solid  black;
+    border-bottom: 50px solid  #A37C40;
 }
 #idelight {
-    color: white;
+    color: #f7fcf6;
     z-index: 1;
-    margin: 165px auto auto auto;
-    font-size: 1.25rem;
+    margin: 160px auto auto auto;
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 .skills-card-1 {
     display: flex;
@@ -266,7 +334,12 @@
     transform: rotateX(180deg);
     background-color: white;
     padding: 25px;
+    color: #27233A;
+    font-weight: 300;
+
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    background-color: white;
+
    
 
     /* border: 1px solid black; */
@@ -276,11 +349,20 @@
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    font-weight: lighter;
+    font-weight: 300;
     padding: 5px 0 0 0;
+    font-family: 'Lato';
+    font-weight: 400;
+    color: #27233A;
+
+}
+.skills-1-back p {
+    font-weight: 300;
+    color: #27233A;
+
 }
 .skill-top-1 {
-    border-top: 12px #F13857 solid;
+    border-top: 12px #090446 solid;
     z-index: 100; 
     position: absolute;
     width: 100%;
@@ -288,28 +370,46 @@
     overflow: hidden;
     backface-visibility: hidden;
     transform: rotateX(180deg);
-    background-color: #F13857; 
+    background-color: #090446; 
     align-content: flex-start !important;  
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
+    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); */
 
 }
 .skill-top-1 h1 {
-    font-size: 1.25rem;
-    padding: 12.5px;
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #f7fcf6;
+
 }
 .skill-top-2 h1 {
-    font-size: 1.25rem;
-    padding: 12.5px;
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #f7fcf6;
+
+
 }
 .skill-top-3 h1 {
-    font-size: 1.25rem;
-    padding: 12.5px;
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #f7fcf6;
+
+
 }
 #idea {
-    color: white;
+    color: #DB3069;
+    font-weight: 600;
 }
 #implement {
-    color: white;
+    color: #DB3069;
+    font-weight: 600;
+
 }
 
 .skills-2-front {
@@ -318,10 +418,9 @@
     height: 100%;
     overflow: hidden;
     backface-visibility: hidden;
-    background-color: teal;
 }
 .skill-top-2 {
-    border-top: 12px #24D7BF solid;
+    border-top: 12px #2C0735 solid;
     z-index: 100; 
     position: absolute;
     width: 100%;
@@ -329,9 +428,8 @@
     overflow: hidden;
     backface-visibility: hidden;
     transform: rotateX(180deg);
-    background-color: #24D7BF; 
+    background-color: #2C0735; 
     align-content: flex-start !important;  
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 
 }
 .skills-2-back {
@@ -344,11 +442,11 @@
     background-color: white;
     padding: 25px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-
-
-
-
-
+}
+.skills-2-back p {
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: #27233A;
 }
 .skills-3-front {
     position: absolute;
@@ -371,8 +469,12 @@
     padding: 25px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
+.skills-3-back p {
+    font-weight: 300;
+    color: #27233A;
+}
 .skill-top-3 {
-    border-top: 12px #f9b552 solid;
+    border-top: 12px #A37C40 solid;
     z-index: 100; 
     position: absolute;
     width: 100%;
@@ -380,7 +482,7 @@
     overflow: hidden;
     backface-visibility: hidden;
     transform: rotateX(180deg);
-    background-color: #f9b552; 
+    background-color: #A37C40; 
     align-content: flex-start !important;  
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 
@@ -396,18 +498,7 @@
     font-size: 18px;
     align-items: center; 
 }
-#skills-head {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;
-    text-align: center;
-    display: block;
-    font-size: 45px;
-    margin: 0 40% 20px;
-    font-weight: 600;
-    border-radius: 3px;
-    border-bottom: 5px solid rgba(66, 200, 188);
-}
+
 
 /* ******************   Project styling START *********** */
 .pro-container {
@@ -421,7 +512,7 @@
     display: block;
     width: 100%;
     border-radius: 7px;
-    border-bottom: 50px solid black;
+    border-bottom: 50px solid rgba(65, 105, 225);
     height: 400px;
 
 }
@@ -433,6 +524,7 @@
     border: 3px solid white;
     border-radius: 7px;
     padding: 10px;
+    
 }
 .case-study:hover {
     transform: scale(1.25);
@@ -449,7 +541,7 @@
     /* background-color: rgba(65, 105, 225, 0.9); */
 
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Lato';
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -476,16 +568,17 @@
     font-size: 1.25rem;
     margin-top: 0.25rem;
     text-align: center;
+    font-family: 'Lato';
+    padding: 5px;
 }
 .pro-overlay h4 {
     margin-top: 100px;
 }
 .front-desc {
     position: absolute;
-    color: white;
-    font-size: 1.5em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
+    color: #f7fff6;
+    font-size: 1.75em;
+    font-family: 'Source Sans Pro', sans-serif;
     width: 100%;
     text-align: center;
     margin-top: -42.5px;
@@ -505,7 +598,7 @@
 #project {
     display: flex;
     width: 100%;
-    background-color: rgba(123, 211, 211);
+    /* background-color: rgba(123, 211, 211); */
     /* background-color: #701bfa; */
     justify-content: center;
     align-items: center;
@@ -676,15 +769,19 @@ display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } */
 #pro-head {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: block;
-    border-bottom: 5px solid #f7af09;
-    margin: 0 40% 20px;
-    padding: 10px;
+    color: #f7fff6;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
     text-align: center;
+    display: block;
     font-size: 45px;
-    font-weight: 600;
-    border-radius: 3px;
+    /* margin: 0 40% 20px; */
+    font-weight: 900;
+    /* background-color: rgb(212, 169, 255); */
+    /* background-color: rgba(203, 153, 255); */
+    width: 100%;
+    /* background-color: #DAD4EF; */
+    background-color: #5FAD56;
 }
 /* ******************   About styling START *********** */
 #about {
@@ -692,6 +789,7 @@ display: flex;
     width: 100%;
     height: 100%;
     /* background-color: #701bfa; */
+    background-color: #f7fff6;
 }
 .about-container {
     display: flex;
@@ -701,37 +799,42 @@ display: flex;
 #pfp {
     height: 500px;
     float: left;
+    margin-top: 50px;
 }
 #about-head {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: block;
-    border-bottom: 5px solid #f7af09;
-    padding: 10px;
-    font-size: 45px;
-    border-radius: 3px;
+    color: #f7fff6;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
     text-align: center;
-    margin: 20px 40%;
+    display: block;
+    font-size: 45px;
+    /* margin: 0 40% 20px; */
+    font-weight: 900;
+    /* background-color: rgb(212, 169, 255); */
+    /* background-color: rgba(203, 153, 255); */
+    width: 100%;
+    /* background-color: #CFDEE7; */
+    background-color: #2C0735;
 }
 .ab-me {
     display: flex;
-    font-size: 22px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
     padding: 15px;
+    font-weight: 300;
     margin: auto;
-    width: 40%;
-    line-height: 1.5em;
+    width: 50%;
+    line-height: 1.75em;
     word-wrap:initial;
 }
 /********* Footer sytling START ******** */
 #footer-sec {
     height: 200px;
-    /* background-color: #f7af09; */
+    background-color: rgba(65, 105, 225);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
 }
 .footer {
     display: flex;
@@ -747,7 +850,7 @@ display: flex;
 }
 
 #contact-head {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
-    border-bottom: 5px solid rgb(0,0,255, 0.6);
+    color:#f7fff6;
 }
