@@ -25,8 +25,8 @@
     <div class="nav-content">
         <a href="#skills">Skills</a>
         <a href="#project">Projects</a>
-        <a href="#">About Me</a>
-        <a href="#">Contact</a>
+        <a href="#about">About Me</a>
+        <a href="#footer-sec">Contact</a>
     </div>
 </div>
 </nav>
@@ -37,7 +37,7 @@
     <h1>I'm <span id="name"><br>Andrew Liera</span></h1><h1> burgeoning
     <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
     <h1><span id="glad">And I'm glad we finally got to meet.</span></h1><br><br><br><br>
-    <button id="download">View My Resumé</button>
+    <button onclick="window.location.href='https://docs.google.com/document/d/136tbpPaEGmd-vZNqb2Itt353AlI2Xq44/edit';" id="download">View My Resumé</button>
 </div>
 </section>
 <!--Skills Content-->
@@ -68,14 +68,17 @@
 
 </section>
 <!--Project Content-->
+<div class="pro-box">
 <h1 id="pro-head">PROJECTS</h1>
+<h3 id="pro-blurb">Case studies are the bread-and-butter of UX. Grab a cup of tea and read through some of the work I've been involved in.</h3>
+</div>
 <!-- <h3 id="problurb">Come for the case studies, stay for the awesome ideas that I've helped be a part of*.</h3> -->
 <section class="project" id="project">
     <div class="pro-container">
         <img class="pro-img-1 pro-img" src="images/wander logo.png" alt="">
         <div class="pro-overlay">
             <!-- <div class="pro-title">Wander: A Mobile App UX Case Study</div> -->
-            <p class="pro-description pro-1-desc">Wander is a product based on the imaginings of a travel service meant to operate in a post-pandemic world.</p>
+            <p class="pro-description pro-1-desc">A mobile travel app where users can book trips, secure lodgings, and browse forums to find their ideal getaway in a post-pandemic world.</p>
             <a class="case-study" href="#">Read Case Study</a>
             <h4>Roles: UX Researcher, UX Designer</h4>
         </div>
@@ -121,7 +124,10 @@
 </section>
 
 <!--About Content-->
-<h1 class="about-head" id="about-head">ABOUT ME</h1>
+<div class="about-box">
+    <h1 class="about-head" id="about-head">ABOUT ME</h1>
+    <h3 id="about-blurb">Telling you (almost) everything you need to know and giving you a face to the name.</h3>
+</div>
 <section class="about" id="about">
     <div class="about-container">
         <img id="pfp" src="images/hero.jpg">
@@ -130,7 +136,10 @@
 </section>
 <section class="footer-sec" id="footer-sec">
     <footer class="footer">
-       <div> <h1 id="contact-head">CONTACT ME</h1></div>
+       <div> 
+           <h1 id="contact-head">CONTACT ME</h1>
+           <h3 id="email">andrewl7501@gmail.com</h3>
+    </div>
     <div class="footer-container">
         <a href="https://www.linkedin.com/in/andrew-liera/"><img id="linked" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="linkedin logo"></a>
         <a href="https://github.com/Andrew-Liera"><img id="git" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png"></a>
