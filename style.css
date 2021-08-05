@@ -564,7 +564,9 @@ font-size: 1.25rem;
 .case-study:hover {
     transform: scale(1.25);
     border-color: rgba(65, 105, 225);
+    transition: all ease 0.2s;
 }
+
 .pro-overlay {
     position: absolute;
     top: 0;
@@ -604,8 +606,8 @@ font-size: 1.25rem;
     margin-top: 0.25rem;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 10px;
-    font-weight: 300;
+    padding: 12.5px;
+    font-weight: 400;
 }
 .pro-overlay h4 {
     margin-top: 50px;
