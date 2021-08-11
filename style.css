@@ -297,7 +297,7 @@ font-size: 1.25rem;
     margin: auto;
     position: absolute;
     border-radius: 7px;
-    border-bottom: 50px solid  #2C0735;
+    border-bottom: 50px solid  #090446;
 }
 #fed {
     color: #f7fcf6;
@@ -313,7 +313,7 @@ font-size: 1.25rem;
     margin: auto;
     position: absolute;
     border-radius: 7px;
-    border-bottom: 50px solid  #A37C40;
+    border-bottom: 50px solid  #090446;
 }
 #idelight {
     color: #f7fcf6;
@@ -422,7 +422,7 @@ font-size: 1.25rem;
     backface-visibility: hidden;
 }
 .skill-top-2 {
-    border-top: 12px #2C0735 solid;
+    border-top: 12px #090446 solid;
     z-index: 100; 
     position: absolute;
     width: 100%;
@@ -430,9 +430,8 @@ font-size: 1.25rem;
     overflow: hidden;
     backface-visibility: hidden;
     transform: rotateX(180deg);
-    background-color: #2C0735; 
+    background-color: #090446; 
     align-content: flex-start !important;  
-
 }
 .skills-2-back {
     position: absolute;
@@ -444,6 +443,12 @@ font-size: 1.25rem;
     background-color: white;
     padding: 25px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+#every {
+    color: #DB3069;
+    font-weight: 600;
+
+
 }
 .skills-2-back p {
     margin-bottom: 10px;
@@ -471,12 +476,18 @@ font-size: 1.25rem;
     padding: 25px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
+#click {
+    color: #DB3069;
+    font-weight: 600;
+
+
+}
 .skills-3-back p {
     font-weight: 300;
     color: #27233A;
 }
 .skill-top-3 {
-    border-top: 12px #A37C40 solid;
+    border-top: 12px #090446 solid;
     z-index: 100; 
     position: absolute;
     width: 100%;
@@ -484,10 +495,9 @@ font-size: 1.25rem;
     overflow: hidden;
     backface-visibility: hidden;
     transform: rotateX(180deg);
-    background-color: #A37C40; 
+    background-color: #090446; 
     align-content: flex-start !important;  
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-
 }
 
 .skills-container div {
@@ -510,7 +520,9 @@ font-size: 1.25rem;
     margin: 25px;
 }
 .pro-box {
-    background-color: #5FAD56;
+    /* background-color: #5FAD56; */
+    background-color: rgba(65, 105, 225);
+
         z-index: 1000;
         display: flex;
         flex-direction: column;
@@ -816,8 +828,10 @@ display: flex;
     background-color: #f7fff6;
 }
 .about-box {
-    background-color: #FF7F11;
-        z-index: 1000;
+    /* background-color: #FF7F11; */
+    background-color: rgba(65, 105, 225);
+    
+    z-index: 1000;
         display: flex;
         flex-direction: column;
         line-height: 25px;
@@ -952,6 +966,7 @@ display: flex;
     #skills {
         flex-direction: column;
         height: 750px;
+
     }
     #skill-blurb {
         font-size: 1rem;
@@ -959,6 +974,8 @@ display: flex;
     .skills-container {
         flex-direction: column;
         transform: scale(0.9);
+
+
     }
     #pro-blurb {
         font-size: 1rem;
