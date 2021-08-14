@@ -515,7 +515,7 @@ font-size: 1.25rem;
 /* ******************   Project styling START *********** */
 .pro-container {
     position: relative;
-    width: 550px;
+    width: 40%;
     border-radius: 16px;
     margin: 25px;
 }
@@ -558,7 +558,7 @@ font-size: 1.25rem;
     display: block;
     width: 100%;
     border-radius: 7px;
-    border-bottom: 50px solid #27233A;
+    border-bottom: 50px solid #090446;
     height: 400px;
 
 }
@@ -621,7 +621,7 @@ font-size: 1.25rem;
     font-weight: 400;
 }
 .pro-overlay h4 {
-    margin-top: 50px;
+    margin-top: 42.5px;
     font-size: 1.25rem;
 }
 .front-desc {
@@ -644,9 +644,9 @@ font-size: 1.25rem;
 
 
 
-
 #project {
     display: flex;
+    flex-direction: column;
     width: 100%;
     /* background-color: rgba(123, 211, 211); */
     background-color: #f7fff6;
@@ -977,8 +977,18 @@ display: flex;
 
 
     }
+    .pro-container {
+        position: relative;
+        width: 100%;
+        border-radius: 16px;
+        padding: 5px;
+        transform: scale(0.9);
+    }
     #pro-blurb {
         font-size: 1rem;
+    }
+    .front-desc {
+        font-size: 1.25rem;
     }
     .about-container {
         flex-direction: column;
